@@ -1,8 +1,10 @@
-from sympy import expand,factor,Symbol
+from sympy import expand,factor,Symbol,Limit,S
 import math
 
-x= Symbol('x')
-y = Symbol('y')
+# S = 무한 관련
+'''
+x = Symbol('x')
+print(Limit(1/x, x, 0).doit())
+# 함수, 변수, 수렴하는  위치
 
-#print(expand((x+1)*(x+5)))
-print(factor(x**3*y-x*y**3))
+'''
